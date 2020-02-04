@@ -29,7 +29,7 @@ class Lifecycle5Test {
     }
 
     @AfterEach //After
-    void afterEacjMethod() {
+    void afterEachMethod() {
         System.out.printf("@AfterEach method invoked. Instance: %s%n", this);
     }
 

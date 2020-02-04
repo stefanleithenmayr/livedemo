@@ -18,7 +18,8 @@ class StringUtilsTest {
         Double actual = StringUtils.convertToDouble(age);
 
         //ASSERT
-        assertNull(actual, "The actual is not null");
+        //assertNull(actual, "The actual is not null");
+        assertThat(actual).isNull();
         // Java 8 Style
         assertNull(actual, () -> {
             return "The actual is not null";

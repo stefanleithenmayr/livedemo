@@ -31,14 +31,14 @@ class StringUtilsDisableClassTest {
     void testAddress(){
         Address address = new Address("Leonding", "Limesstraße", "0664123456789");
 
-        assertEquals("Leonding", address.getCity());
-        assertEquals("Limesstraße", address.getStreet());
-        assertEquals("0664123456789", address.getNumber());
+        //assertEquals("Leonding", address.getCity());
+        //assertEquals("Limesstraße", address.getStreet());
+        //assertEquals("0664123456789", address.getNumber());
 
-        /*assertAll("Address is correct",
+        assertAll("Address is correct",
                 ()->assertEquals("Leonding", address.getCity()),
                 ()->assertEquals("Limesstraße", address.getStreet()),
-                ()->assertEquals("0664123456789", address.getNumber()));*/
+                ()->assertEquals("0664123456789", address.getNumber()));
     }
 
     @Test
