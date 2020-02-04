@@ -68,6 +68,6 @@ class ExamplesTest {
 
     @Test
     void t04_fail(){
-        fail();
+        
     }
 }
